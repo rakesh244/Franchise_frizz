@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap");
+
+
+
+.books{
+  height: 120px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-image: linear-gradient(
+      rgba(204, 30, 88, 0.6),
+      rgba(20, 20, 20, 0.6)
+    ),
+    url("../../assets/HarryPotter/bg2.jpg");
+    border: none;
+    outline: none;
+    color: #fcde67;
+}
+
+.row{
+  padding-bottom: 20px !important ;
+}
+
+.card{
+  height: 400px;
+}
+
+.imgBox,
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+img{
+    width: 180px;
+    padding: 10px;
+}
+
+h1{
+  text-align: center;
+  color: #fcde67;
+  margin-top: 10px;
+}
+
+.back{
+  background-color: black;
+  padding-top: 1%;
+}
+.backImg{
+  filter: invert(100%);
+  width: 5%;
+}

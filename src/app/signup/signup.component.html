@@ -1,0 +1,32 @@
+<body>
+    <div class="container">
+        <div class="row pb-5">
+            <div class="col-sm-12 mt-5">
+                <div class="form row mt-3" id="signup">
+                    <div class="col-sm-12 container">
+                        <form #ref="ngForm" (ngSubmit)="onSignup(ref.value)">
+                            <div class="input mb-3">
+                                <input type="username" class="main-form animated bounceInDown" id="username"
+                                    placeholder=" USERNAME" name="username" required="required" ngModel>
+                            </div>
+                            <div class="input mb-3">
+                                <input type="password" class="main-form animated bounceInDown" id="password"
+                                    placeholder=" PASSWORD" name="password" required="required" ngModel>
+                            </div>
+                            <div class="input mb-3">
+                                <input type="email" class="main-form animated bounceInDown" id="email"
+                                    placeholder=" EMAIL" name="email" required="required" ngModel>
+                            </div>
+                            <div class="input mb-3">
+                                <input type="date" class="p-2 dob animated bounceInDown" id="dob" name="dob" 
+                                required="required" ngModel>
+                            </div>
+                            <input class="main-form btn animated bounceInDown my-5" type="submit" 
+                            value="SIGN UP" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
